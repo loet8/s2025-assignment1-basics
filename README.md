@@ -46,3 +46,16 @@ gunzip owt_valid.txt.gz
 cd ..
 ```
 
+## ECE491B Assignment instructions
+
+Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment1_basics.pdf) with small deviations:
+1. If you are stuck with some implementation, just use the Huggingface/Pytorch implementation
+    - Submit the report reflecting your attempts at implementation for partial credit
+2. Skip Problem (unicode2) from section 2.2
+3. Problems (learning_rate, batch_size_experiment, parallel_layers, layer_norm_ablation, pre_norm_ablation, main_experiment):
+    - get a free T4 GPU at Colab
+    - reduce the number of total tokens processed down to 33,000,000 or even lower for faster iteration
+4. Problem (learning_rate):
+    - validation loss can be anything
+5. Skip Problem (leaderboard) from Section 7.5
+
