@@ -49,13 +49,16 @@ cd ..
 ## ECE491B Assignment instructions
 
 Follow along the [CS336@Stanford handout](./cs336_spring2024_assignment1_basics.pdf) with small deviations:
-1. If you are stuck with some implementation, just use the Huggingface/Pytorch implementation
+1. What the code looks like: clone https://github.com/igormolybog/s2025-assignment1-basics.git
+2. What you can use: Implementation from scratch is preferred, but experiments are essential. If you are stuck with some implementation, just use the Huggingface/Pytorch implementation and proceed to the experiments
     - Submit the report reflecting your attempts at implementation for partial credit
-2. Skip Problem (unicode2) from section 2.2
-3. Problems (learning_rate, batch_size_experiment, parallel_layers, layer_norm_ablation, pre_norm_ablation, main_experiment):
+3. How to submit: You will submit the report on the assignment to [Assignment Submission Form](https://forms.gle/CSRweWjuBxvYbb9MA). The code does not have to be attached as long as you include links to the main GitHub branch where your code lives and links to all of the Colab notebooks if applicable.
+    - You don't need to submit to leaderboard.
+4. Skip Problem (unicode2) from section 2.2
+5. Problems (learning_rate, batch_size_experiment, parallel_layers, layer_norm_ablation, pre_norm_ablation, main_experiment):
     - get a free T4 GPU at Colab
-    - reduce the number of total tokens processed down to 33,000,000 or even lower for faster iteration
-4. Problem (learning_rate):
+    - reduce the number of total tokens processed down to 33,000,000 or even lower for faster iteration. Keep the number of tokens consistant across your experiments.
+6. Problem (learning_rate):
     - validation loss can be anything
-5. Skip Problem (leaderboard) from Section 7.5
+7. Skip Problem (leaderboard) from Section 7.5
 
