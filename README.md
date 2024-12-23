@@ -12,8 +12,8 @@ raise a GitHub issue or open a pull request with a fix.
 0. Set up a conda environment and install packages:
 
 ``` sh
-conda create -n cs336_basics python=3.10 --yes
-conda activate cs336_basics
+conda create -n ece496b_basics python=3.10 --yes
+conda activate ece496b_basics
 pip install -e .'[test]'
 ```
 
