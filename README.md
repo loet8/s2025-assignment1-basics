@@ -7,7 +7,8 @@ For the full description of the original assignment, see the assignment handout 
 Check out useful [lectures from CS336 at Stanford](https://github.com/stanford-cs336/spring2024-lectures).
 
 If you see any issues with the assignment handout or code, please feel free to
-raise a GitHub issue or open a pull request with a fix.
+raise a GitHub issue or open a pull request with a fix. Any improvements of the existing codebase
+(including adaptations from Stanford to UHM workflows, modifications of PDF, etc) will be rewarded with extra points.
 
 ## Setup
 
@@ -45,6 +46,12 @@ gunzip owt_valid.txt.gz
 
 cd ..
 ```
+
+### [Click here](https://colab.research.google.com/drive/1_zYjI4dqgPLwBL1vrp3adA4sfW_qk-1t?usp=sharing) for an example setup at Colab
+
+Caution! The free GPU runtimes are very limited! Make sure to disconnect and delete your runtime when you spend time writing code or switch to another task. Using colab GPU runtimes for too long might result in losing access to them  (inceased wait times and/or short session durations).
+
+If any of this happens to you, please consult with the professor.
 
 ## ECE491B Assignment instructions
 
